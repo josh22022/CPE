@@ -12,5 +12,7 @@ class Solution(object):
                         find += j
                 if find > 0:
                     return find, len(page)
-        elif total == 0:
-            return 0,0
+while True:
+	total = eval(input(''))
+	sol = Solution()
+	print(sol.findMissPage(total))
