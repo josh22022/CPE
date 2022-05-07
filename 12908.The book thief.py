@@ -1,3 +1,4 @@
+'''
 12908. The book thief
 On February 18, 2014, Red Matemática proposed the following mathematical challenge on their twitter
 account (@redmatematicant): “While Anita read: The book thief by Markus Zusak, She added all the
@@ -36,6 +37,7 @@ Sample Output
 45 134
 523 1000
 5225 10000
+'''
 ========================================================================================================
 class Solution(object):
     def findMissPage(self,total):
