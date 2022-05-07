@@ -13,6 +13,13 @@ class Solution(object):
             if m < 0 or y < 0 or c < 0:
                 error += 1
         if error > 0:
-            return 'NO'
+            print('NO')
         else:
-            return 'YES',m,y,c
+            print('YES',m,y,c)
+while True:
+	times = eval(input(''))
+	sol = Solution()
+	for i in range(times):
+		m,y,c,color = input().split(' ')
+		m,y,c = int(m),int(y),int(c)
+		sol.fillColor(m,y,c,color)
